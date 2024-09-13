@@ -11,7 +11,7 @@ A lot of the CSS we'll need is already outlined in the Adobe XD document:
 https://xd.adobe.com/view/6f52b708-fde0-4967-bdea-98a46169b9b1-3a01/specs/
 
 ![1. click any element on each slide 2. hit the </> button on the right edge sidebar 3. behold the pre-done CSS]
-(adobe-xd-screencap.png)
+(/assets/images/adobe-xd-screencap.png)
 
 To have a look for yourself:
 
@@ -30,12 +30,12 @@ Don't get caught up in the size of the project or the bits and pieces that you c
 1. Home page is a static webpage - won't change much. Heaps of buttons that change what's displayed on a sizable chunk of the page&mdash;
 
 ![buttons yay]
-(main-buttons.png)
+(/assets/images/main-buttons.png)
 
 &mdash;and some RWD work to be done:
 
 ![fancy icons in need of responsive web design]
-(main-page-icons.png)
+(/assets/images/main-page-icons.png)
 
 These icons need to go from horizontal on desk devices to vertical on mobile.
 
