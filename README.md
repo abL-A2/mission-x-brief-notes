@@ -43,17 +43,17 @@ Here's hopefully a quick skim if you want to see what you might be interested in
 
 <img src="/assets/images/main-buttons.png">
 
-> &mdash;and some RWD work to be done:
+&mdash;and some RWD work to be done:
 
 <img src="/assets/images/main-page-icons.png">
 
-> These icons need to go from horizontal on desk devices to vertical on mobile.
+These icons need to go from horizontal on desk devices to vertical on mobile.
 
 2. _Log-in/Sign-up_ is neat. So yeah, ctlr+click this link:
 
 https://xd.adobe.com/view/6f52b708-fde0-4967-bdea-98a46169b9b1-3a01/?fullscreen
 
-> and click the magenta (pink? rose? idk) 'Sign Up' button. Throws up a container that renders over the main page, blurs everything else, and changes content depending on if you click 'LOG IN' or 'SIGN UP', either in the student or teacher section. Very spiffy, you will feel so much satisfaction coding that.
+and click the magenta (pink? rose? idk) 'Sign Up' button. Throws up a container that renders over the main page, blurs everything else, and changes content depending on if you click 'LOG IN' or 'SIGN UP', either in the student or teacher section. Very spiffy, you will feel so much satisfaction coding that.
 
 ### 2. Green - Project Library & Student Profile Viewer
 
@@ -63,9 +63,9 @@ https://xd.adobe.com/view/6f52b708-fde0-4967-bdea-98a46169b9b1-3a01/?fullscreen
 
 <img src="assets/images/project-library-filter.png">
 
-> At first blush it'll be a lot of lining classes up. There's an 'Introduction' slide that's just a big link to _Student Dashboard_ (more on that later, or skip to it using the directory). The project slides themselves present as chunky flex-box. Fun part is, you get to decide which projects are free, sub-only, their difficulty levels, all those other filter categories. The brief doesn't specify which is which, and we need at least 3 to display & filter correctly.
+At first blush it'll be a lot of lining classes up. There's an 'Introduction' slide that's just a big link to _Student Dashboard_ (more on that later, or skip to it using the directory). The project slides themselves present as chunky flex-box. Fun part is, you get to decide which projects are free, sub-only, their difficulty levels, all those other filter categories. The brief doesn't specify which is which, and we need at least 3 to display & filter correctly.
 
-> Finally, _Project Library_ looks slightly different if user = student vs if user = teacher, but that part's not a big deal. That and everything else is just buttons and anchor tags.
+Finally, _Project Library_ looks slightly different if user = student vs if user = teacher, but that part's not a big deal. That and everything else is just buttons and anchor tags.
 
 2. _Student Profile Viewer_ a mostly static webpage. Wait for whoever's working on Yellow/Home page to finish their header and footer, because you can just copy that part of their homework. The viewer will need to draw information on the student from a database. Otherwise, just a bunch of buttons.
 
@@ -73,7 +73,7 @@ https://xd.adobe.com/view/6f52b708-fde0-4967-bdea-98a46169b9b1-3a01/?fullscreen
 
 (Brief page 11, but the "Submit Project" section on page 12 is not part of this category. See Orange section below)
 
-> 'The Project Builder page is the main workbench for students.' It looks chunky, but sink your teeth in and it's not too substantial. Kinda like pavlova, you know? Mmmm, pavlova. Also, the "Submit Project" page and a little progress tracker that displays on these pages are somebody else's jobs, so say hi to to them once your work's done.
+'The Project Builder page is the main workbench for students.' It looks chunky, but sink your teeth in and it's not too substantial. Kinda like pavlova, you know? Mmmm, pavlova. Also, the "Submit Project" page and a little progress tracker that displays on these pages are somebody else's jobs, so say hi to to them once your work's done.
 
 1. _Learning Objectives_ has this neat sidebar that is also collapsible using these tabs:
 
@@ -91,7 +91,7 @@ It also has these buttons, one of which has conditional statement requirements:
 
 1. _Submit Project_ can be treated as a container nested within the wider Pink section detailed above, so once you're done with this part be sure to say hi to whoever's working on Pink so they can pop your container in there.
 
-> Main focus is a big button that, when clicked, calls a function that grabs a screenshot, attaches a bunch of information to it about when it was taken, then saves it as a URL in the backend. Looks like you'll need to study this as an example component of how that can work (ctrl+click): https://github.com/Mission-Ready/MissionX-Screenshot-Upload. Look, I've been mostly neutral, but this part looks complicated. Someone can correct me if I'm wrong, but this is what the experts call a 'big learning opportunity'.
+Main focus is a big button that, when clicked, calls a function that grabs a screenshot, attaches a bunch of information to it about when it was taken, then saves it as a URL in the backend. Looks like you'll need to study this as an example component of how that can work (ctrl+click): https://github.com/Mission-Ready/MissionX-Screenshot-Upload. Look, I've been mostly neutral, but this part looks complicated. Someone can correct me if I'm wrong, but this is what the experts call a 'big learning opportunity'.
 
 2. _Project Submissions_ is the other side. Grabs those URLs from the database then presents them to the teacher as a list on the page with thumbnails which the teacher can enlarge into the full photo. Each submission gets a checkbox to allow the teacher to affect more than one submission with the pièce de résistance, a '✔️MARK AS COMPLETED PROJECT' button. There is no 'DELETE ALL'. That would be mean.
 
